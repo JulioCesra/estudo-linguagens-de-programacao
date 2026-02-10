@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="introducao_site">
+        <h1>CALCULADORA + SPRING BOOT</h1>
+        <p>Website desenvolvido para testar API desenvolvida com o Spring Boot</p>
+    </div>
+    <div class="sessao_operacoes">
+        <h3>Digite os valores abaixo</h3>
+        <div id="digitar_valores">
+            <input type="number" name="n1" id="n1" value="0.0">
+            <input type="number" name="n2" id="n2" value="0.0">
+        </div>
+        <label for="operacoes_matematicas">Selecione uma das operações matemáticas</label>
+        <select name="operacoes_matematicas" id="operacoes_matematicas">
+            <option value="soma">soma</option>
+            <option value="subtracao">subtração</option>
+            <option value="divisao">divisão</option>
+            <option value="multiplicacao">multiplicação</option>
+        </select>
+        <h3 id="resultado_operacao"></h3>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
